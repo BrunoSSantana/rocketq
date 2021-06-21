@@ -1,3 +1,3 @@
-# rocketq
+# Rocket.Q
 
-![](./assets/logo.svg)
+![](/assets/logo.svg)
