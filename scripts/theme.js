@@ -10,7 +10,7 @@ const getStyle = (element, style) =>
 const initialColors = {
   background: '#F6FAFF',
   primary: '#3485FF',
-  secondary: '#FAFAFA',
+  secondary: '#345',
   colorHead: '#0d114f',
   greyPrimary: '#a1b2cd',
   point: '#4F5'

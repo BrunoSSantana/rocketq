@@ -1,0 +1,109 @@
+/* TOGGLE */
+#toggle {
+  position: fixed;
+  top: -2.7rem;
+  right: 0.7rem;
+}
+
+/* Content */
+.content {
+  max-width: min(112rem, 90%);
+}
+
+#room header {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#room header .buttons {
+  display: flex;
+  align-items: center;
+}
+
+#room header .buttons .button {
+  display: flex;
+}
+
+#room header .buttons .button:nth-child(1) {
+  margin-right: .8rem;
+  padding: 1.3rem 1.6rem;
+}
+
+#room header .buttons .button:nth-child(1) .img{
+  margin-left: 1.16rem;
+  width: 2rem;
+  height: 2rem;
+}
+
+#room header .buttons .button:nth-child(2) {
+  padding: 1.3rem 3.2rem;
+}
+
+#room header .buttons .button:nth-child(2) .img{
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Question Form */
+
+#question-form h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8rem;
+  color: var(--color-head);
+  font-weight: 700;
+  line-height: 4.2rem;
+
+  margin-bottom: 2.4rem;
+}
+
+#question-form form {
+  border: .2rem solid var(--grey-primary);
+  padding: 1.6rem;
+  border-radius: 0 .8rem .8rem .8rem;
+
+  margin-bottom: 1.6rem;
+}
+
+#question-form form textarea {
+  resize: none;
+  background: transparent;
+
+  width: 100%;
+
+  outline: none;
+}
+
+#question-form form textarea::placeholder {
+  color: var(--grey-primary);
+}
+
+#question-form form footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  /* background: #F0F; */
+
+}
+#question-form form footer > div {
+  color: var(--icons-details);
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+
+  display: flex;
+  align-items: center;
+  
+}
+#question-form form footer > div .img {
+  margin-right: 0.9rem;
+}
+
+#question-form form footer button {
+  height: auto;
+  padding: .8rem 2.4rem;
+  line-height: 2.4rem;
+}
