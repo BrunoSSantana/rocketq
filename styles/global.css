@@ -20,6 +20,7 @@ html {
   --grey-dark: #4d5e77;
   --grey-primary: #a1b2cd;
   --grey-light: #e5eaf1;
+  --grey-medium: #eaecf2;
 
   font-size: 62.5%;
   color: var(--color-head);
@@ -83,8 +84,8 @@ button:hover, .button:hover {
   filter: brightness(1.2);
 }
 
-button > .img
-.button:hover {
+button > .img,
+.button > .img {
   margin-right: 1rem;
   width: 2rem;
 }
@@ -96,6 +97,19 @@ button.outlined,
   border: .2rem solid var(--primary);
 }
 
+button.red,
+.button.red {
+  background: var(--red);
+  color: #FAFAFA;
+}
+
+button.grey,
+.button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+/* HEADER */
 .content header {
   width: 80%;
   margin: 3.5rem auto;
