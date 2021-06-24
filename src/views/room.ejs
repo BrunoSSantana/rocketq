@@ -53,7 +53,7 @@
 
       <div class="buttons">
 
-        <div class="button outlined">
+        <div class="button outlined" id="room-id" data-id="323243">
           #323243
           <div class="img">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -198,7 +198,7 @@
                 </div>
               </div>
               <div class="actions">
-                <a href="#">
+                <a href="#" class="check" data-id="2">
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20 6L9 17L4 12" 
@@ -211,7 +211,7 @@
                   </div>
                   Marcar como lida
                 </a>
-                <a href="#">
+                <a href="#" class="delete" data-id="2">
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path 
@@ -264,7 +264,7 @@
                 </div>
               </div>
               <div class="actions">
-                <a href="#">
+                <a href="#" class="check" data-id="3">
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20 6L9 17L4 12" 
@@ -277,7 +277,7 @@
                   </div>
                   Marcar como lida
                 </a>
-                <a href="#">
+                <a href="#" class="delete" data-id="3">
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path 
@@ -330,7 +330,7 @@
                 </div>
               </div>
               <div class="actions">
-                <a href="#">
+                <a href="#" class="check" data-id="4">
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20 6L9 17L4 12" 
@@ -343,7 +343,7 @@
                   </div>
                   Marcar como lida
                 </a>
-                <a href="#">
+                <a href="#" class="delete" data-id="4">
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path 
@@ -368,7 +368,6 @@
               </div>
             </div>
             
-
             <div class="question-warapper read">
 
               <div class="question-content">
@@ -400,7 +399,7 @@
 
               <div class="actions">
 
-                <a href="#">
+                <a href="#" class="delete" data-id="1">
 
                   <div class="img">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -442,12 +441,12 @@
       <h2>Excluir Pergunta</h2>
       <p>Tem certeza que você deseja excluir esta pergunta?</p>
 
-      <form action="">
+      <form action="" method="POST">
         <label for="password" class="sr-only"></label>
         <input type="password" name="password" placeholder="Digite sua senha" id="password">
 
         <div class="buttons">
-          <div class="button grey">Cancelar</div>
+          <div class="button grey cancel">Cancelar</div>
           <button class="red">Sim, excluir</button>
         </div>
 
@@ -456,6 +455,7 @@
   </div>
 
   <script src="./scripts/theme.js"></script>
+  <script src="scripts/main.js" defer type="module"></script>
 
 </body>
 </html>
