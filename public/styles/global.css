@@ -9,13 +9,15 @@
 }
 html {
   --color-head: #0d114f;
-  --secondary: #FAFAFA;
+  --secondary: #345;
   --red: #E83F5B;
   --light-primary: #E0ECFF;
   --primary: #3485FF;
   --background: #F6FAFF;
   --overlay: #040911;
   --icons-details: #A5B0C1;
+  --point: '#4F52F4'
+
 
   --grey-dark: #4d5e77;
   --grey-primary: #a1b2cd;

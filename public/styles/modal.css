@@ -19,7 +19,7 @@
 
 .modal-wrapper .modal {
   width: min(59rem, 90%);
-  background: var(--secondary );
+  background: var(--background );
   margin: auto;
 
   border-radius: .8rem;
